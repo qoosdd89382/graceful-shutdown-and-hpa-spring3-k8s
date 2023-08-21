@@ -21,5 +21,5 @@ spec:
       stabilizationWindowSeconds: 30
       policies:
         - type: Percent
-          value: 10
-          periodSeconds: 60
+          value: 25
+          periodSeconds: 15

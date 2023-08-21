@@ -13,4 +13,11 @@ public class WorkController {
         Thread.sleep(10 * 1000L);
         return "success";
     }
+
+    @GetMapping("/hpa")
+    public String hpa() {
+        // 阻塞式
+        System.out.println("request in");
+        return "success";
+    }
 }

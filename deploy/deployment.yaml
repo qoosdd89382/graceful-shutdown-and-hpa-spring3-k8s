@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: graceful
+  name: graceful
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: graceful
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: graceful
+    spec:
+      containers:
+        - image: qoosdd89382/graceful
+          name: graceful
+          resources:
+            requests:
+              cpu: "1"
+              memory: "1Gi"
+            limits:
+              cpu: "1"
+              memory: "1Gi"
+status: {}

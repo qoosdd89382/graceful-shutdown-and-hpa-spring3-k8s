@@ -3,7 +3,7 @@
 ## Ref
 
 - [如何优雅地停止 Spring Boot 应用？ - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/143469078)
-- [qoosdd89382/SpringBoot-Learn forked from wupeixuan/SpringBoot-Learn]((https://github.com/qoosdd89382/SpringBoot-Learn/tree/master/graceful-shutdown))
+- [qoosdd89382/SpringBoot-Learn forked from wupeixuan/SpringBoot-Learn](https://github.com/qoosdd89382/SpringBoot-Learn/tree/master/graceful-shutdown)
 
 ---
 

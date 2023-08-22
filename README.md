@@ -1,6 +1,6 @@
 # Logback + ELK
 
-First of all you need install [Docker ELK](https://github.com/deviantony/docker-elk), then start this application.
+First of all you need to install [Docker ELK](https://github.com/deviantony/docker-elk), then start this application.
 
 ## Ref
 - https://github.com/CrayfishGo/springboot-logback-logstash-demo
